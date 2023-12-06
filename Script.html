@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function NF(){
+            let name = "tarun";
+            {
+                let name="Tarun"
+                console.log(name);
+            }
+            let Name = "Andamdas";
+                if(Name == "Andamdas"){
+                    console.log("Its me")
+                }
+        }
+        //NF();
+    </script>
+    <script>
+        function NNF(){
+            let NAME ="-";
+            if(NAME === "Andamdas"){
+                console.log("Hey it's me")
+            }else if(NAME==="Tarun"){
+                console.log("It's me tarun")
+            }else{
+                console.log("Who are you?")
+            }
+    }
+    //NNF();
+    </script>
+    <script>
+        function NNNF(NAME){
+            if(NAME === "Andamdas"){
+                console.log("Hey it's me")
+            }else if(NAME==="Tarun"){
+                console.log("It's me tarun")
+            }else{
+                console.log("Who are you?")
+            }
+    }
+    //NNNF("Tarun");
+    //NNNF("Andamdas");
+    //NNNF("Kumar");
+    </script>
+    <script>
+        function F(name){
+            let result ="";
+            if(name === "Craig"){
+                result = "Hi Craig";
+            }
+            else if(name === "Tyler"){
+                result = "Tyler, is that you"
+            }
+            else {
+                result = "Wait, where is Craig"
+            }
+            return result;
+        }
+        //F("Craig");
+    </script>
+    <script>
+        let firstName = "Craig";
+        let lastName = "Shoemaker";
+        let twitter = "@craigshoemaker";
+
+        let person = {
+            firstName:"Craig",
+            lastName:"Shoemaker",
+            twitter:"@craigshoemaker",
+            greet: function() {
+                console.log("My name is" + this.firstName);
+            }
+        }; 
+        //person.greet();
+    </script>
+    <script>
+        /*let days = ["Mon", "Tue", "Wed"];
+        days.forEach(function(day,index){
+            console.log(`day:${day},index:${index}`)
+        });*/
+    </script>
+    <script src = "externaljs.js" text="text/javascript">
+    </script>
+</body>
+</html>

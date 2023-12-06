@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .columns{
+        border:solid blue;
+        display: flex;
+    }
+    .columns > div{
+        border: solid black;
+        flex: 1;
+    }
+    .columns > div:nth-of-type(2){
+        flex: 2;
+    }
+</style>
+<body>
+    <div class="columns">
+        <div>Andamdas</div>
+        <div>Tarun</div>
+        <div>Kumar</div>
+    </div>
+</body>
+</html>
